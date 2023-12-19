@@ -14,17 +14,17 @@
             </div>
             <div class = "buttons">
                 <button class="btn" id = "Valee🥳Button" onclick="nextPage()">Valee🥳</button>
-                <button class="btn" id="No😜Button" onmouseover="moveButton()">No😜</button>
+                <button class="btn" id="noButton" onmouseover="moveButton()">no</button>
                 <script>
                     function nextPage() {
                         window.location.href = "yes.html";
                     }
                     
                     function moveButton() {
-                        var x = Math.random() * (window.innerWidth - document.getElementById('No😜Button').offsetWidth);
-                        var y = Math.random() * (window.innerHeight - document.getElementById('No😜Button').offsetHeight);
-                        document.getElementById('NoButton').style.left = `${x}px`;
-                        document.getElementById('NoButton').style.top = `${y}px`;
+                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth);
+                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight);
+                        document.getElementById('noButton').style.left = `${x}px`;
+                        document.getElementById('noButton').style.top = `${y}px`;
                     }
                 </script> 
             </div>
